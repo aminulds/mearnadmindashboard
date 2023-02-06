@@ -104,7 +104,6 @@ const Sidebar = ({
   const navigate = useNavigate();
   const theme = useTheme();
 
-  console.log(user);
 
   useEffect(() => {
     setActive(pathname.substring(1));
